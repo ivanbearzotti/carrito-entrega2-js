@@ -1,3 +1,5 @@
+// NAVBAR
+
 let openMenu = document.querySelector('.bx-menu');
 
 let closeMenu = document.querySelector('.bx-x');
@@ -23,6 +25,10 @@ closeMenu.addEventListener('click', () => {
     main.classList.remove("hidden");
     footer.classList.remove("hidden");
 })
+
+// ENTREGA 2 DE JAVASCRIPT:
+
+// a) Creación de array:
 
 let productos = [
     {
